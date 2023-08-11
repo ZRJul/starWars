@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #FFD700;
+}
+.navbar-brand {
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+
+.nav-link {
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    margin-right: 40px;
+}
+
+.main_banner {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card {
+    background-color: #FFD700;
+    margin: 70px 10px 10px 10px;
+
+}
+
+#content {
+    display: none;
+}
