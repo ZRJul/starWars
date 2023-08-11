@@ -7,7 +7,7 @@ function createPlanetCard(planet) {
     card.className = 'planet-card';
     card.innerHTML = `
                 <div class="card" style="width: 18rem;">
-                  <img src="../images/banner.jpg" class="card-img-top" alt="...">
+                  <img src="images/banner.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">${planet.name}</h5>
                     <p><strong>Climate:</strong> ${planet.climate}</p>
@@ -45,7 +45,7 @@ function createPeopleCard(people) {
     card.className = 'people-card';
     card.innerHTML = `
                 <div class="card" style="width: 18rem;">
-                  <img src="../images/banner.jpg" class="card-img-top" alt="...">
+                  <img src="images/banner.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">${people.name}</h5>
                     <p><strong>Gender:</strong> ${people.gender}</p>
